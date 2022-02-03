@@ -1055,3 +1055,11 @@ footer .white {
     text-align: center;
   }
 }
+
+input:invalid {
+  border: 2px solid rgba(255, 0, 0, 0.507);
+}
+
+input:valid {
+  border: 2px solid rgba(0, 128, 0, 0.637);
+}
